@@ -16,7 +16,7 @@
 
 ### Links
 
-[FEM-Solution](https://your-solution-url.com)
+[FEM-Solution](https://www.frontendmentor.io/solutions/fem-order-summary-oWSoq_lHBI)
 [Live Site](https://dapper-crepe-b4a1c0.netlify.app/)
 
 ## My process
@@ -32,8 +32,6 @@
 It was really fun building this card.
 I finally learnt how to make a the use the width and height propety in the right way.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
 Now i want to go deeper in to layouts.
@@ -41,6 +39,5 @@ It really is going to be a long journey but it feels like am almost at the end o
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@gideon-del](https://www.frontendmentor.io/profile/gideon-del)
+- Twitter - [@ChidiGideon6](https://twitter.com/ChidiGideon6?t=eDRNdIAdkIlCi1sPdwm9Lg&s=09)
