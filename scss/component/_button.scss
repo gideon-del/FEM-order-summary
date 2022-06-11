@@ -38,6 +38,10 @@
     font-weight: $font-weight-7;
     display: inline-block;
     margin-top: 1.3rem;
+    transition: all 0.4s ease-in;
+    &:hover {
+      color: $color-dark-blue;
+    }
   }
   @media only screen and (min-width: 1024px) {
     margin-top: 3rem;

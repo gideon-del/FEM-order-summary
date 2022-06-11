@@ -4,7 +4,7 @@
   background-color: $color-vpale-blue;
   border-radius: 15px;
   overflow: hidden;
-
+  box-shadow: 0 2.5rem 3rem rgba(#000, 0.4);
   max-width: 35rem;
   &__photo {
     background-image: url("../../images/illustration-hero.svg");
