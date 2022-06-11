@@ -16,8 +16,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://dapper-crepe-b4a1c0.netlify.app/)
+[FEM-Solution](https://your-solution-url.com)
+[Live Site](https://dapper-crepe-b4a1c0.netlify.app/)
 
 ## My process
 
