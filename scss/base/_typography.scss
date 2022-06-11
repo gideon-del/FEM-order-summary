@@ -1,0 +1,34 @@
+@use "../abstract" as *;
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+.card__heading {
+  font-size: 2rem;
+  font-weight: $font-weight-9;
+  color: $color-dark-blue;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.price-header {
+  font-weight: $font-weight-9;
+  color: $color-dark-blue;
+}
+.paragraph {
+  font-size: 1.5rem;
+  font-weight: $font-weight-5;
+  color: $color-desaturated-blue;
+  line-height: 1.5;
+  text-align: center;
+}
+.card__link {
+  font-weight: 900;
+  font-family: inherit;
+  color: $color-primary-dark;
+  font-size: 1.3rem;
+  transition: all 0.4s ease;
+  &:hover {
+    text-decoration: none;
+  }
+}

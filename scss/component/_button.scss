@@ -1,0 +1,45 @@
+@use "../abstract" as *;
+.payment {
+  margin: 2rem 0;
+  &__link:link,
+  &__link:visited {
+    font-weight: $font-weight-7;
+    padding: 1.5rem 7.5rem;
+    background-color: $color-primary-dark;
+    color: $color-vpale-blue;
+    text-decoration: none;
+    font-family: inherit;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+    font-size: 1.5rem;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 100;
+      background-color: $color-desaturated-blue;
+      opacity: 0;
+      border-radius: 15px;
+      transition: all 0.4s ease-in;
+    }
+    &:hover::after {
+      opacity: 0.4;
+    }
+  }
+  &__cancel {
+    text-decoration: none;
+    color: $color-desaturated-blue;
+    font-size: 1.5rem;
+    font-weight: $font-weight-7;
+    display: inline-block;
+    margin-top: 1.3rem;
+  }
+  @media only screen and (min-width: 1024px) {
+    margin-top: 3rem;
+  }
+}
