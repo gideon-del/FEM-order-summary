@@ -20,12 +20,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("../../images/pattern-background-mobile.svg");
-}
-@media only screen and (min-width: 768px) {
-  body {
-    background-image: url("../../images/pattern-background-desktop.svg");
-  }
 }
 
 img,
@@ -74,15 +68,8 @@ body {
   background-color: hsl(225deg, 100%, 98%);
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 2.5rem 3rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
   max-width: 35rem;
-}
-.card__photo {
-  background-image: url("../../images/illustration-hero.svg");
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 15rem;
-  width: 100%;
 }
 .card__content {
   padding: 1.5rem;
@@ -159,4 +146,21 @@ body {
   .payment {
     margin-top: 3rem;
   }
+}
+
+body {
+  background-image: url("../images/pattern-background-mobile.svg");
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}
+
+.card__photo {
+  background-image: url("../images/illustration-hero.svg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 15rem;
+  width: 100%;
 }/*# sourceMappingURL=global.css.map */
