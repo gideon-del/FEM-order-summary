@@ -32,7 +32,7 @@ body {
 }
 
 .card__heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: hsl(223deg, 47%, 23%);
   display: inline-block;
@@ -58,6 +58,10 @@ body {
   color: hsl(245deg, 75%, 52%);
   font-size: 1.3rem;
   transition: all 0.4s ease;
+  width: 25%;
+  text-align: center;
+  padding: 1rem 0;
+  float: right;
 }
 .card__link:hover {
   text-decoration: none;
@@ -69,10 +73,11 @@ body {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
-  max-width: 35rem;
+  max-width: 38rem;
 }
 .card__content {
   padding: 1.5rem;
+  padding-bottom: 0;
   text-align: center;
   width: 100%;
 }
@@ -86,8 +91,6 @@ body {
   border-radius: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .card__price > * {
   margin-right: 2rem;
@@ -95,6 +98,15 @@ body {
 @media screen and (min-width: 1024px) {
   .card__price {
     margin: 3rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    height: 56rem;
+    max-width: 37rem;
+  }
+  .card__text {
+    margin: 2rem 0;
   }
 }
 
@@ -113,6 +125,7 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
   font-size: 1.5rem;
   position: relative;
+  width: 100%;
 }
 .payment__link:link::after, .payment__link:visited::after {
   content: "";
@@ -136,7 +149,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   display: inline-block;
-  margin-top: 1.3rem;
+  margin-top: 1rem;
   transition: all 0.4s ease-in;
 }
 .payment__cancel:hover {
@@ -146,10 +159,15 @@ body {
   .payment {
     margin-top: 3rem;
   }
+  .payment__cancel {
+    margin-top: 2rem;
+  }
 }
 
 body {
   background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media only screen and (min-width: 768px) {
   body {
@@ -161,6 +179,21 @@ body {
   background-image: url("../images/illustration-hero.svg");
   background-size: cover;
   background-position: 50% 50%;
-  height: 15rem;
+  height: 19rem;
   width: 100%;
+}
+
+.price {
+  justify-self: flex-end;
+  display: flex;
+  width: 100%;
+  float: left;
+}
+
+.card__price--img {
+  border-radius: 50%;
+  background-color: hsl(223deg, 47%, 23%);
+  border: none;
+  outline: none;
+  margin-right: 1rem;
 }/*# sourceMappingURL=global.css.map */

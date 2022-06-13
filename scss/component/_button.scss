@@ -14,6 +14,7 @@
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
     font-size: 1.5rem;
     position: relative;
+    width: 100%;
     &::after {
       content: "";
       position: absolute;
@@ -37,7 +38,7 @@
     font-size: 1.5rem;
     font-weight: $font-weight-7;
     display: inline-block;
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     transition: all 0.4s ease-in;
     &:hover {
       color: $color-dark-blue;
@@ -45,5 +46,8 @@
   }
   @media only screen and (min-width: 1024px) {
     margin-top: 3rem;
+    &__cancel {
+      margin-top: 2rem;
+    }
   }
 }
