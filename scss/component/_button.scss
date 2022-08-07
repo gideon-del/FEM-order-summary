@@ -4,16 +4,19 @@
   &__link:link,
   &__link:visited {
     font-weight: $font-weight-7;
-    padding: 1.5rem 7.5rem;
+    padding: 1.5rem 3.5rem;
     background-color: $color-primary-dark;
     color: $color-vpale-blue;
     text-decoration: none;
     font-family: inherit;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
     font-size: 1.5rem;
     position: relative;
+    white-space: nowrap;
     width: 100%;
     &::after {
       content: "";

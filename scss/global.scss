@@ -3,11 +3,13 @@
 @forward "component";
 body {
   background-image: url("../images/pattern-background-mobile.svg");
+
   @media only screen and (min-width: 768px) {
     background-image: url("../images/pattern-background-desktop.svg");
   }
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-color: $color-primary-light;
 }
 .card__photo {
   background-image: url("../images/illustration-hero.svg");
@@ -20,11 +22,13 @@ body {
   justify-self: flex-end;
   display: flex;
   width: 100%;
-  float: left;
+  gap: 1rem;
+  margin-left: 1.5rem;
 }
 .card__price--img {
   border-radius: 50%;
   background-color: $color-dark-blue;
+  filter: $color-desaturated-blue;
   border: none;
   outline: none;
   margin-right: 1rem;
