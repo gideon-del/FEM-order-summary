@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 .card {
   width: 90vw;
-  background-color: $color-vpale-blue;
+  background-color: #fff;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0.5rem 3rem rgba(#000, 0.4);
@@ -23,7 +23,7 @@
 
   &__price {
     padding: 2rem 0.5rem;
-    background-color: $color-primary-light;
+    background-color: $color-vpale-blue;
     // width: 100%;
 
     border-radius: 15px;
@@ -42,7 +42,7 @@
   @media screen and (min-width: 1440px) {
     // height: 56rem;
     max-width: 40rem;
-    transform: scale(1.3);
+    transform: scale(1.1);
     &__text {
       margin: 2rem 0;
     }

@@ -26,9 +26,13 @@ body {
   margin-left: 1.5rem;
 }
 .card__price--img {
+  width: 4.8rem;
+  height: 4.8rem;
   border-radius: 50%;
-  background-color: $color-dark-blue;
-  filter: $color-desaturated-blue;
+  background-image: url("../images/icon-music.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
   border: none;
   outline: none;
   margin-right: 1rem;
